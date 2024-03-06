@@ -21,13 +21,7 @@ Username: Vic
 
 Password: ''
 
-```CREATE TABLE evaluation (
-  id BIGSERIAL NOT NULL PRIMARY KEY,
-  input VARCHAR(50) NOT NULL,
-  output VARCHAR(50),
-  date_in TIMESTAMP NOT NULL,
-  date_out TIMESTAMP
-);```
+```CREATE TABLE evaluation (   id BIGSERIAL NOT NULL PRIMARY KEY,   input VARCHAR(50) NOT NULL,   output VARCHAR(50),   date_in TIMESTAMP NOT NULL,   date_out TIMESTAMP   );```
 
 To run this project you will need to open 2 terminals and run the following in each of them:
 
