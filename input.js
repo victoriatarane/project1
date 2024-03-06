@@ -6,7 +6,7 @@ const Bull = require('bull');
 
 
 class InputService {
-    // ports
+    // Ports
     SERVER_PORT = 3000;
     REDIS_PORT = 6379;
     SQL_PORT = 5432;
