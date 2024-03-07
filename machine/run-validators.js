@@ -1,7 +1,6 @@
 const evalProcess = require('./validators/eval.js');
 const axios = require('axios');
 const Bull = require('bull');
-const p = require('./process.js');
 const REDIS_PORT = 6379;
 
 if (process.argv.length < 3) {
